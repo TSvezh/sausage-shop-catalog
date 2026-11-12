@@ -17,4 +17,4 @@
 - **Адаптивная верстка**: сетка на CSS Grid корректно отображается на ПК, планшетах и смартфонах.
 
 ## 💻 Как посмотреть проект:
-https://github.com/TSvezh/sausage-shop-catalog
+https://tsvezh.github.io/sausage-shop-catalog/
