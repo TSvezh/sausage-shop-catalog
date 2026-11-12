@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Каталог товаров для колбасного дела</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1>Всё для домашнего приготовления колбас</h1>
+      <p>Интерактивный каталог товаров с фильтрацией и живым поиском</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Панель управления: Поиск и Фильтры -->
+    <section class="controls">
+      <div class="search-box">
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="Поиск по названию (например, оболочка или паприка)..."
+        >
+      </div>
+
+      <div class="filters" id="filterButtons">
+        <button class="filter-btn active" data-category="all">Все товары</button>
+        <button class="filter-btn" data-category="casings">Оболочки</button>
+        <button class="filter-btn" data-category="spices">Специи и смеси</button>
+        <button class="filter-btn" data-category="equipment">Оборудование</button>
+      </div>
+    </section>
+
+    <!-- Счетчик найденных товаров -->
+    <div class="status-bar">
+      Найдено товаров: <span id="productsCount">0</span>
+    </div>
+
+    <!-- Сетка товаров -->
+    <section class="products-grid" id="productsGrid"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
