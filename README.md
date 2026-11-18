@@ -18,3 +18,6 @@
 
 ## 💻 Как посмотреть проект:
 https://tsvezh.github.io/sausage-shop-catalog/
+
+## 📸 Скриншот
+![Скриншот игры](screenshot.png)
